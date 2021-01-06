@@ -1,0 +1,28 @@
+.fl {
+    float: left;
+}
+.toolbar-operation {
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+    margin-left: 15px;
+    color: #666;
+}
+
+/* Collapse 组件 */
+.ant-collapse {
+    border: none;
+    margin-bottom: 15px;
+}
+.ant-collapse > .ant-collapse-item {
+    border-top-width: 0;
+}
+.ant-collapse-header::after {
+    content: "";
+    width: 3px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ddd;
+}
